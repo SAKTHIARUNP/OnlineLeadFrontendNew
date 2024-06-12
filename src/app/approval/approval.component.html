@@ -1,0 +1,11 @@
+<div class="container">
+  <h2>Lead Approval</h2>
+  <p><strong>LeadId:</strong> {{ lead.id }}</p>
+  <p><strong>Name:</strong> {{ lead.name }}</p>
+  <p><strong>Email:</strong> {{ lead.email }}</p>
+  <p><strong>Address:</strong> {{ lead.address }}</p>
+  <p><strong>Mobile:</strong> {{ lead.mobile }}</p>
+  <p><strong>Interested Products:</strong> {{ lead.interestedProducts }}</p>
+  <button (click)="approveLead()" class="btn btn-success">Approve</button>
+  <button (click)="rejectLead()" class="btn btn-danger">Reject</button>
+</div>

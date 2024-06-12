@@ -1,0 +1,34 @@
+<div class="container">
+  <h2>List of Leads</h2>
+  <div class="form-group m-3">
+      
+  </div>
+  <table class="table table-striped">
+      <thead class="table-dark text-white">
+          <tr>
+              <th>LeadId</th>
+              <th>Name</th>
+              <th>Mobile</th>
+              <th>Email</th>
+              <th>Address</th>
+              <th>InterestedProducts</th>
+              
+          </tr>
+      </thead>
+      <tbody>
+          
+              <tr *ngFor="let lead of allLead" >
+            <td>{{lead.leadId}}</td>
+            <td>{{lead.name | uppercase}}</td>
+            <td>{{lead.mobile}}</td>
+            <td>{{lead.email}}</td>
+            <td>{{lead.address}}</td>
+            <td>{{lead.interestedProducts}}</td>
+            <td><button type="button" (click)="onEdit(lead.leadId)">Edit</button></td>
+            <td><button type="button" (click)="onDelete()">Delete</button></td>
+            
+            </tr>
+      </tbody>
+      
+  </table>
+  </div>

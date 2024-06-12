@@ -1,0 +1,48 @@
+.form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da; /* Light gray border */
+    border-radius: 5px;
+  }
+  
+  .invalid-feedback {
+    color: #dc3545; /* Red color for error messages */
+    font-size: 14px;
+  }
+  
+  .btn-primary {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue button color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Additional styling */
+  .form-control:focus {
+    border-color: #007bff; /* Blue border color on focus */
+    outline: 0; /* Remove default focus outline */
+  }
+  
+  .invalid-feedback {
+    display: none; /* Hide error messages by default */
+  }
+  
+  .invalid-feedback.show {
+    display: block; /* Show error messages when necessary */
+  }
+  

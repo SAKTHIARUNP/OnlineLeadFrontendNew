@@ -1,0 +1,39 @@
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f9fa; /* Light gray background color */
+  }
+  
+  .container h2 {
+    margin-top: 0;
+  }
+  
+  .container p {
+    margin: 5px 0;
+  }
+  
+  .btn {
+    padding: 8px 16px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-success {
+    background-color: #28a745; /* Green button color */
+    color: #fff; /* White text color */
+  }
+  
+  .btn-danger {
+    background-color: #dc3545; /* Red button color */
+    color: #fff; /* White text color */
+  }
+  
+  .btn-success:hover,
+  .btn-danger:hover {
+    opacity: 0.9; /* Reduce opacity on hover */
+  }
+  

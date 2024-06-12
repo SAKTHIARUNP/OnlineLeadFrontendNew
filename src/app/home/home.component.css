@@ -1,0 +1,37 @@
+.container {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .container h1 {
+    margin: 0;
+  }
+  
+  .container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .container ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .container ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .container ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .container ul li a:hover {
+    color: #ffa500; /* Change color on hover */
+  }
+  
